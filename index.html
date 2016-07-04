@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<title>The Incredibly Accessible Form</title>
+		<link media="all" rel="stylesheet" href="accessible-form.css" />
+	</head>
+
+	<body>
+		<main aria-hidden="false">
+			<h1>The Incredibly Accessible Form</h1>
+			<p>This is an attempt to show how to make a form as accessible as possible to assistive technology users, partially inspired by: https://github.com/gdkraus/accessible-modal-dialog. </p>
+
+			<p>This was made after </p>
+
+			<form name="example-form" action="" onSubmit="return false;">
+				<p>
+					<label for="firstName">First Name</label>
+					<input type="text" name="first-name" id="first-name">
+				</p>
+				<p>
+					<label for="lastName">Last Name</label>
+					<input type="text" name="last-name" id="last-name">
+				</p>
+				<p>
+					 <label for="company">Company Name</label>
+					 <input type="text" name="company" id="company">
+				</p>
+				<p>
+					 <label for="email">Email Address</label>
+					 <input type="email" name="email" id="email">
+				</p>
+
+				<fieldset>
+					<label for="message-subject">Message Subject</label>
+					<select id="message-subject" name="select">
+						<option value="1">Amsterdam</option>
+						<option value="2">Buenos Aires</option>
+						<option value="3">Delhi</option>
+						<option value="4">Hong Kong</option>
+						<option value="5">London</option>
+					</select>
+				</fieldset>
+				<p>
+					<input type="button" name="cancel-button" id="cancel-button" value="Cancel">
+					<input type="button" name="button" id="enter" value="Submit">
+				</p>
+			</form>
+		</min>
+	</body>
+</html>
