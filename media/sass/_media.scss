@@ -1,0 +1,13 @@
+@import 'mobile/all';
+
+@media screen and (min-width: 768px) {
+	@import 'tablet/all';
+}
+ 
+@media screen and (min-width: 992px) {
+	@import 'desktop/all';
+}
+ 
+@media screen and (min-width: 1200px) {
+	@import 'large-desktop/all';
+}
